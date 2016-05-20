@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="libs/jQuery.js"></script>
+    <script src="libs/plotly.js"></script>
+
+    <link href="libs/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+</head>
+<body>
+
+<!--Navigationsbar-->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand"href="#">Weather Station</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li  ><a href="#">Home</a></li>
+                    <li onclick=drawTempGraph();><a href="#about">Temperatur</a></li>
+                    <li onclick=drawHumidGraph();><a href="#contact">Luftfeuchtigkeit</a></li>
+                    <li onclick=showBoth();><a href="#contact">Temperatur / Luftfeuchtigkeit</a></li>
+                    <li onclick=><a href="#contact">Tag</a></li>
+                    <li onclick=clearDiv();><a href="#lawl">Clear</a></li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<div class = "measureValues">
+    <div id="maxValue">Max value: </div>
+    <div id="minValue">Min value:  </div>
+    <div id="averageValue">Average: </div>
+</div>
+
+<!--Div für besondere Werte-->
+
+
+
+
+<!--Container für den Graphen-->
+<!--<div id = "graphContainer"></div>-->
+
+
+
+
+
+
+
+
+
+
+<script src="libs/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

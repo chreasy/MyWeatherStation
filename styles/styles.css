@@ -1,0 +1,31 @@
+.measureValues{
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden; /* contain floated elements */
+    background: #ccc;
+    margin-top: 41px;
+    border-radius: 25px;
+}
+#maxValue {
+    float: left;
+    width: 33%;
+    background-color: lightgray;
+    text-align: center;
+}
+#minValue {
+    float: left;
+    background-color: #bbb;
+    width: 33%;
+    text-align: center;
+}
+#averageValue{
+    float: left;
+    width: 33%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#graphContainer{
+    margin-top: -50px;
+
+}
